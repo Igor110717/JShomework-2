@@ -37,3 +37,50 @@
   //   calculateEngravingPrice('Donec orci lectus aliquam est magnis', 20),
   // ); // 120
   
+  // Задание 3
+
+//   const findLongestWord = function(string) {
+//     const stringArray = string.split(" ");
+//     let longestWord = stringArray[0];
+    
+//     for (const element of stringArray) {
+    
+//       if (element.length > longestWord.length) {
+//         longestWord = element;
+//       }
+
+//     }
+    
+//     return longestWord;
+//   };
+
+//   console.log(findLongestWord('The quick brown fox jumped over the lazy dog')); // 'jumped'
+
+// console.log(findLongestWord('Google do a roll')); // 'Google'
+
+// console.log(findLongestWord('May the force be with you')); // 'force'
+
+
+// Задание 4
+
+// const formatString = function(string) {
+//   return string.length > 40 ? string.slice(0, 40) + "..." : string;
+// };
+
+
+// console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
+// // вернется оригинальная строка
+
+// console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
+// // вернется форматированная строка
+
+// console.log(formatString('Curabitur ligula sapien.'));
+// // вернется оригинальная строка
+
+// console.log(
+//   formatString(
+//     'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
+//   ),
+// );
+// // вернется форматированная строка
+
